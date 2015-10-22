@@ -13,7 +13,7 @@ h1 {
   font-size: 4.1em;
   color: #408692;
   line-height: 1.3em;
-  margin-top: 0;
+  margin: 0;
 }
 
 h2 {
@@ -23,6 +23,20 @@ h2 {
 
 .larger-text {
   font-size: 1.2em;
+}
+
+a {
+  color: #666666;
+  text-decoration: none;
+  padding-bottom: .1em;
+  border-bottom: solid 1px #BFC0C1;
+}
+
+a:hover {
+  color: #303030;
+  text-decoration: none;
+  padding-bottom: .1em;
+  border-bottom: solid 1px #303030;
 }
 
 button {
@@ -68,10 +82,14 @@ button:hover {
 }
 
 #set-up-in-seconds, #supports-platform, #tests-prs, #deploy-anywhere {
+  width: 200px;
+}
+
+#set-up-in-seconds, #supports-platform, #tests-prs, #deploy-anywhere, #clojure, #node, #php, #xcode, #ruby, #python, #java, #erlang, #go, #scala, #perl {
   font-size: 1.2em;
   border-top: solid 10px;
   display: inline-block;
-  min-width: 200px;
+  min-width: 89px;
 }
 
 #set-up-in-seconds {
@@ -88,4 +106,86 @@ button:hover {
 
 #deploy-anywhere {
   border-color: #9B8CBA;
+}
+
+#clojure {
+  border-color: #5881D8;
+}
+
+#node {
+  border-color: #88C043;
+}
+
+#php {
+  border-color: #777BB4;
+}
+
+#xcode {
+  border-color: #3BACFB;
+}
+
+#ruby {
+  border-color: #F0454E;
+}
+
+#python {
+  border-color: #EAC821;
+}
+
+#java {
+  border-color: #E04E3F;
+}
+
+#erlang {
+  border-color: #AA1E2D;
+}
+
+#go {
+  border-color: #58B5BF;
+}
+
+#scala {
+  border-color: #DE322F;
+}
+
+#perl {
+  border-color: #6082C6;
+}
+
+#lisa1, #lisa2 {
+  border-radius: 200px;
+}
+
+.team-bios {
+  text-align: center;
+  max-width: 130px;
+  margin-top: 20px;
+}
+
+.bios {
+  margin: 0;
+  line-height: 1.5em;
+}
+
+.title {
+  font-style: italic;
+}
+
+.twitter a, a:hover {
+  border-bottom: 0;
+}
+
+.flags {
+  margin-top: 10px;
+}
+
+.flags img {
+  max-width: 26px;
+  max-height: 16px;
+}
+
+.flag-divider {
+  font-size: 1.3em;
+  color: #d9d9d9;
+  padding: 0 5px;
 }
