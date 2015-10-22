@@ -1,25 +1,91 @@
 html, body {
-  font-family: 'Source Sans Pro', Helvetica, sans-serif;
-  font-size: 1.1em;
+  font-size: 1em;
   background-color: white;
   color: #666666;
+}
+
+h1, h2, p, .larger-text, button {
   font-weight: 300;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
 }
 
 h1 {
-  font-size: 3em;
-  color: #666666;
-  line-height: .9em;
-  border-top: solid 18px #fff;
-  font-weight: 300;
+  font-size: 4.1em;
+  color: #408692;
+  line-height: 1.3em;
+  margin-top: 0;
 }
 
 h2 {
-  font-size: 1.5em;
-  font-weight: 300;
+  font-size: 2.05em;
+  color: #3AA85C;
 }
 
 .larger-text {
   font-size: 1.2em;
-  font-weight: 300;
+}
+
+button {
+  background-color: #39A85B;
+  color: white;
+  font-size: 1.9em;
+  padding: .4em .7em;
+  margin: 1.1em 0 0 0;
+  border: 0;
+  border-radius: 2px;
+  display: block;
+}
+
+button:hover {
+  background-color: #73c78d;
+}
+
+#zendesk, #heroku, #engineyard, #bittorrent, #moz {
+  font-size: 1.9em;
+  border-top: solid 10px;
+  display: inline-block;
+  min-width: 200px;
+}
+
+#zendesk {
+  color: #78A300;
+}
+
+#heroku {
+  color: #6863A7;
+}
+
+#engineyard {
+  color: #EB252C;
+}
+
+#bittorrent {
+  color: #7665AC;
+}
+
+#moz {
+  color: #23AAE1;
+}
+
+#set-up-in-seconds, #supports-platform, #tests-prs, #deploy-anywhere {
+  font-size: 1.2em;
+  border-top: solid 10px;
+  display: inline-block;
+  min-width: 200px;
+}
+
+#set-up-in-seconds {
+  border-color: #97A1AA;
+}
+
+#supports-platform {
+  border-color: #ED8843;
+}
+
+#tests-prs {
+  border-color: #E5C025;
+}
+
+#deploy-anywhere {
+  border-color: #9B8CBA;
 }
